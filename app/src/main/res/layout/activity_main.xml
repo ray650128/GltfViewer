@@ -19,8 +19,16 @@
         android:id="@+id/btnLoad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="開啟檔案"
-        app:layout_constraintBottom_toBottomOf="@+id/surfaceView"
-        app:layout_constraintEnd_toEndOf="@+id/surfaceView" />
+        android:text="開啟本地的模型"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnLoadUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="開啟網路上的模型"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
